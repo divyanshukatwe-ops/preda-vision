@@ -1,0 +1,5 @@
+Community Data License Agreement – Permissive – Version 1.0 (CDLA-Permissive-1.0)
+Dataset: Caltech Camera Traps (CCT20 / CCT140)
+Source: LILA BC (Labeled Information Library of Alexandria: Biology and Conservation)
+URL: https://lila.science/datasets/caltech-camera-traps
+Citation: Sara Beery, Grant Van Horn, Pietro Perona. Recognition in Terra Incognita. ECCV 2018.

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# Data & Heavy Raw Downloads
+data/database/
+data/demo_dataset/
+data/processed/thumbnails/
+preda_vision_data/downloads/
+preda_vision_data/raw/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
