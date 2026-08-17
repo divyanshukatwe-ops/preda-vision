@@ -15,6 +15,16 @@ export interface Dataset {
   is_demo: number;
 }
 
+export interface ImportProgress {
+  dataset_id: number;
+  status: 'PENDING' | 'SCANNING' | 'COMPLETED' | 'FAILED';
+  total_files: number;
+  scanned_files: number;
+  current_file?: string;
+  percent: number;
+  errors?: number;
+}
+
 export interface Detection {
   id: number;
   image_id: number;

@@ -1,6 +1,6 @@
 # Preda Vision — Camera-Trap Dataset Quality & Audit Report
 
-**Date**: 2026-08-16 03:13:13  
+**Date**: 2026-08-17 12:59:45  
 **Project**: Preda Vision Wildlife Intelligence Pipeline  
 
 ---
@@ -44,13 +44,13 @@
 
 | Metric | Count / Status | Notes |
 |---|---|---|
-| **Total Images Downloaded** | **1541** | Untouched raw images stored in `preda_vision_data/raw/` |
-| **Blank / Empty Images** | **250** | Verified empty camera-trap frames from Caltech Camera Traps |
-| **General Wildlife Images** | **600** | Multi-species mammals and birds |
-| **Tiger Images (Total)** | **691** | Verified Amur Tiger camera-trap frames |
-| **Individual Tiger Re-ID Images** | **371** | Curated across 6 individuals (25–98 captures per individual) |
+| **Total Images Downloaded** | **0** | Untouched raw images stored in `preda_vision_data/raw/` |
+| **Blank / Empty Images** | **0** | Verified empty camera-trap frames from Caltech Camera Traps |
+| **General Wildlife Images** | **0** | Multi-species mammals and birds |
+| **Tiger Images (Total)** | **0** | Verified Amur Tiger camera-trap frames |
+| **Individual Tiger Re-ID Images** | **0** | Curated across 6 individuals (25–98 captures per individual) |
 | **Corrupted Files Count** | **0** | 100% PIL image verification pass rate |
-| **Exact Duplicate Count** | **206** | Verified via SHA-256 binary file hashing |
+| **Exact Duplicate Count** | **0** | Verified via SHA-256 binary file hashing |
 
 ---
 

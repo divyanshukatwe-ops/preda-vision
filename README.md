@@ -57,22 +57,22 @@ npm install
 
 ## Running the Application
 
-Open **two terminals**:
+Open **two terminals** from the project root:
 
-### Terminal 1 — Backend (port 8000)
+### Terminal 1 — Backend (Single Command)
 
-```bash
-# From project root, with venv activated
-.\venv\Scripts\activate
-python -m uvicorn backend.main:app --reload --port 8000
+```powershell
+.\venv\Scripts\python.exe -m uvicorn backend.main:app --reload --port 8000
 ```
+*(On macOS/Linux: `./venv/bin/python -m uvicorn backend.main:app --reload --port 8000`)*
 
-### Terminal 2 — Frontend (port 5173)
+### Terminal 2 — Frontend (Single Command)
 
-```bash
-cd frontend
+```powershell
 npm run dev
 ```
+
+> **Note for Windows PowerShell Users:** If PowerShell script execution is restricted on your machine, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, or run `cmd /c "npm run dev"`.
 
 Then open **http://localhost:5173** in your browser.
 

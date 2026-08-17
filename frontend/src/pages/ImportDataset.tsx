@@ -401,7 +401,7 @@ export default function ImportDataset() {
             percent={progress.percent}
             scanned={progress.scanned_files}
             total={progress.total_files}
-            currentFile={progress.current_file}
+            currentFile={progress.current_file || ''}
             status={progress.status}
           />
         </div>
