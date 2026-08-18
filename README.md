@@ -1,4 +1,4 @@
-# PenchGuard AI
+# Preda Vision AI
 
 **Offline Wildlife Intelligence & Tiger Movement Early-Warning System**
 
