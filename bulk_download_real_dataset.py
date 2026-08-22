@@ -3,7 +3,7 @@ Fast Parallel Bulk Downloader for Preda Vision Dataset.
 Downloads real photos via iNaturalist API:
 - 400 Real Tiger Images
 - 200 Real Wildlife Images (11 species)
-- 100 Real Blank/Forest Scene Images
+- 150 Real Blank/Forest Scene Images
 - Organizes 10 Individual Tiger directories for Re-ID ML testing.
 """
 
