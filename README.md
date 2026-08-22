@@ -72,7 +72,7 @@ Open **two terminals** from the project root:
 npm run dev
 ```
 
-> **Note for Windows PowerShell Users:** If PowerShell script execution is restricted on your machine, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, or run `cmd /c "npm run dev"`.
+> **Note for Windows PowerShell User:** If PowerShell script execution is restricted on your machine, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, or run `cmd /c "npm run dev"`.
 
 Then open **http://localhost:5173** in your browser.
 
