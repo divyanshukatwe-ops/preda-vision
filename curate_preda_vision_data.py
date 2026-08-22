@@ -84,10 +84,10 @@ def curate_atrw_tigers():
                 tiger_id, filename = row[0].strip(), row[1].strip()
                 tiger_records.append((tiger_id, filename))
 
-    # Identify top individuals with 25+ images
+    # Identify top individuals with 26+ images
     from collections import Counter
     counts = Counter(r[0] for r in tiger_records)
-    selected_individual_ids = [t_id for t_id, cnt in counts.most_common() if cnt >= 25][:6]
+    selected_individual_ids = [t_id for t_id, cnt in counts.most_common() if cnt >= 26][:6]
     print(f"Selected {len(selected_individual_ids)} individual tigers for Re-ID stage: {selected_individual_ids}")
 
     metadata_entries = []
